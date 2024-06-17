@@ -1,0 +1,938 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+
+body{
+    background-color: #5a8962;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    background-color: #5a8962;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly; 
+}
+
+header{
+    background-color: #38543b;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    box-shadow: 0px 10px 50px 5px rgba(0,0,0,0.40);
+    justify-content: space-between;
+}
+
+.header_logo{
+    
+    width: 10rem;
+    height: fit-content;
+    justify-content: flex-end;
+    margin-left: 5%;
+
+}
+
+img{
+    border-radius: 20px;
+    width: 6rem;
+    height: 3rem;
+    background-color: #f0fdbe;
+}
+
+nav{
+    width: 40%; 
+    height: fit-content;
+     
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 22px;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.link_nav{
+    width: 8rem;
+    color: #f0fdbe;
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.container{
+    display: flex;
+    width: 20%;
+    height: fit-content;
+    margin: 3%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.search{
+    display: block;
+    background-color: #f0fdbe;
+    width: 135px;
+    height: 3rem;
+    padding: 0,1;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+}
+
+.Get_one{
+    display: block;
+    background-color: #37359E;
+    width: 3rem;
+    height: 53px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.Get{
+    display: block;
+    background-color: #37359E;
+    width: 3rem;
+    height: 53px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Ortho{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    top: 25px;
+    justify-content: flex-end;
+
+}
+
+.Speak{
+    color: #f0fdbe;
+    width: 51%;
+    font-family: 'Advent Pro', sans-serif;
+    margin-left: 15%;
+    font-size: 95px;
+}
+
+.Newscoe{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.Newscoe_place{
+    width: 100%;
+    height: 466px;
+    border-radius: 0;
+    mix-blend-mode: overlay;
+}
+
+.image_place2{
+    display: flex;
+    position: absolute;
+    width: 21%;
+    height: 30rem;
+    color: #37359E;
+    z-index: 1;
+    left: 76%;
+    margin: 0px;
+    top: 0px;
+    border-radius: 0;
+}
+
+.Newscoe_place2{
+    position: absolute;
+    width: 234px;
+    height: 480px;
+    left: 26%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.image_place2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-color: #2dbc6b;
+    left: 26%;
+    width: 234px;
+    height: 480px;
+    opacity: 0.3;
+}
+
+.Partition{
+    position: absolute;
+    width: 101%;
+    font-family: 'Advent Pro', sans-serif;
+    transform: rotate(-89deg);
+    left: 44%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 42px;
+    top: 69px;
+}
+
+
+.schoes_text{
+    display: flex;
+    position: absolute;
+    width: 96%;
+    height: 7rem;
+    z-index: 1;
+    margin: 0;
+    color: #37359E;
+    font-size: 39px;
+    top: -2px;
+}
+
+.font_life{
+    font-family: 'Advent Pro', sans-serif;
+    width: 66%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.Get_button{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 13%;
+    height: 4rem;
+    margin: 4%;
+    z-index: 1;
+    bottom: 4rem;
+}
+
+.btn{
+    background: linear-gradient(360deg, rgba(2,0,36,1) 15%, rgba(55,53,158,1) 50%);
+    font-family:  'Aldrich', sans empattement;
+    font-size: 25px;
+    width: 185px;
+    height: 45px;
+    color: #f0fdbe;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+article{
+    display: flex;
+    width: 264px;
+    height: 274px;
+    margin: 1%;
+    position: initial;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid black 9px;
+    border-radius: 17px;
+    box-shadow: 0px 10px 50px 5px rgba(0,0,0,0.40);
+    color: white;
+}
+
+.price_sneakers{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    flex-direction: column;
+    padding-bottom: 0,1rem;
+    border-radius: 0px 0px 6px 6px;
+    background-color: rgba(0,0,0,0.40);
+}
+
+.Nwx{
+    background: #37359E;
+    width: 84px;
+    height: 22px;
+    color: yellow;
+    margin-right: 58%;
+}
+
+.descsneak{
+    margin: 1px;
+    margin-left: 10px;
+    padding: 0;
+    font-weight: 600;
+}
+
+
+.major_simple{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 98%;
+    height: fit-content;
+    margin: 0%;
+    padding-top: 1%;
+}
+
+.star {
+    font-size: 1rem;
+    color: gold;
+    padding: 0 5px;
+}
+
+
+.simple_one{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/converse-sneakers-pro-leather-hi-170240c-blanc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.simple_two{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;    
+    background-image: url(images/puma-clyde-vintage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.simple_three{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/baskets-club-c-revenge-vintage-cuir-ch-reebok-chalk-royal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 17px;
+
+}
+
+.simple_four{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/png-transparent-air-force-air-jordan-nike-sneakers-white-jordan-white-outdoor-shoe-sneakers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 17px;
+}
+
+.simple_five{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/nike\ jordan.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.simple_six{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/flowerMountain.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.simple_seven{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/convrse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.simple_eight{
+    display: flex;
+    align-content: space-between ;
+    background-position: center;
+    background-image: url(images/nike\ vintage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.major_art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 99%;
+    height: fit-content;
+    margin: 0%;
+}
+
+.strong{
+    width: 244px;
+    height: 443px;
+    position: relative;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+.strong_img{
+    width: 460px;
+    height: 254px;
+    background-position: center;
+    transform: rotate(90deg);
+    margin-left: -44%;
+    
+}
+
+.strong::after{
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-color: #3de19d;
+    width: 244vw;
+    height: 443vh;
+    opacity: 0.5;
+}
+
+.strong_two{
+    width: 244px;
+    height: 443px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.strong_two_img{
+    width: 460px;
+    height: 445px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    margin-left: -45%;
+}
+
+.strong_two_img::after{
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-color: #be3838;
+    width: 244vw;
+    height: 443vh;
+    opacity: 0.5;
+}
+
+.div_isolated{
+    background-color: #5a8962;
+    width: 42%;
+    align-content: space-evenly;
+    overflow: hidden;
+}
+
+.weak{
+    width: 500px;
+    height: 214px;
+    background-position: center;
+    background-image: url(images/addidas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.weak::after{
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-color: #98e679;
+    width: 500px;
+    height: 214px;
+    opacity: 0.5;
+}
+
+
+.weak_two{
+    width: 500px;
+    height: 214px;
+    background-position: center;
+    background-image: url(images/birkenstockBlue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.weak_two::after{
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-color: #e162f5;
+    width: 500px;
+    height: 214px;
+    opacity: 0.4;
+}
+
+
+
+.major_other{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 97%;
+    height: fit-content;
+    margin: 0%;
+}
+
+.other{
+    width: 222px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.other_veja{
+    display: flex;
+    align-content: space-between ;
+    width: 222px;
+    height: 260px;
+    background-position: center;
+    background-image: url(images/veja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.other_gola{
+    display: flex;
+    align-content: space-between ;
+    width: 222px;
+    height: 260px;
+    background-position: center;
+    background-image: url(images/golq.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.other_puma{
+    display: flex;
+    align-content: space-between ;
+    width: 222px;
+    height: 260px;
+    background-position: center;
+    background-image: url(images/puma-vintage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.other_nk{
+    display: flex;
+    align-content: space-between ;
+    width: 222px;
+    height: 260px;
+    background-position: center;
+    background-image: url(images/nike\ jordan.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_produit{
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
+    height: fit-content;
+    top: 137rem;
+    margin-right: 8%;
+}
+
+.clic{
+    width: 46%;
+    color: #f0fdbe;
+    font-family: 'Advent Pro', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.Bttn_Products{
+    background: linear-gradient(360deg, rgba(2,0,36,1) 15%, rgba(55,53,158,1) 50%);
+    font-family:  'Aldrich', sans empattement;
+    font-size: 23px;
+    width: 180px;
+    height: 40px;
+    color: #f0fdbe;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.Pieds{
+    background-image: url(images/icon_sneacker_group/prairie.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    width: 1264px;
+    height: 321PX;
+    margin-top: 17px;
+}
+
+.deux_box{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 1;
+    color: white;
+}
+
+.Myblock{
+    display: flex;
+    width: 40%;
+    height: 15rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    gap: 0%;
+ }
+
+.Myblock_un{
+    display: flex;
+    width: 40%;
+    height: 15rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    gap: 0%;
+}
+
+h2{
+    width: 60%;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 37px;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 8%;
+    gap: 0%;
+}
+
+.text_desbloc{
+    display: flex;
+    width: 90%;
+    height: 10rem;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+/* ///début footer style.... */
+footer{
+    background-color: #5a8962;
+    width: 100%;
+    height: fit-content;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ///social média... */
+.div_AI_social{
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25%;
+    padding-bottom: 20px;
+}
+
+.AI_social{
+    width: 40px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.img_social{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+
+}
+
+/* ///Paiements... */
+.div_AI_paiements{
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25%;
+    padding-bottom: 20px;
+}
+
+.AI_paiements{
+    width: 40px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.moyen_paiement{
+    height: 26px;
+    width: 53px;
+    border-radius: 0px;
+}
+
+/* ///Partenariat... */
+.Partenaire_div{
+    display: flex;
+    width: 99%;
+    height: fit-content;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    font-size: 20px;
+   
+}
+
+h4{
+    color: white;
+    margin: 0;
+    margin-left: 52px;
+}
+
+.service_partenariat{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;  
+    padding: 0;
+}
+
+.ul_foot{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.ul_foot :hover{
+background-color: black;
+}
+
+.footer_service_clients{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_service_achat{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_collaboration{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #f0fdbe;
+}
+
+
+/* Responsive styles for tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 45%;
+    }
+    
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header_logo {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Ortho {
+        bottom: 20rem;
+    }
+
+    .schoes_text {
+        bottom: 22rem;
+    }
+
+    .image_place2 {
+        width: 50%;
+        left: 50%;
+        bottom: 1rem;
+    }
+
+    .simple_one, .simple_two, .simple_three, .simple_four, .simple_five, .simple_six, .simple_seven, .simple_eight {
+        width: 48%;
+        height: auto;
+    }
+
+    .major_simple {
+        height: auto;
+    }
+
+    .strong, .strong_two {
+        width: 48%;
+        height: auto;
+    }
+
+    .div_isolated {
+        width: 90%;
+    }
+
+    .other_veja, .other_gola, .other_puma, .other_nk {
+        width: 48%;
+        height: auto;
+    }
+
+    .div_produit {
+        width: 90%;
+    }
+
+    .Myblock, .Myblock_un {
+        width: 90%;
+    }
+
+    h2 {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .text_desbloc {
+        width: 90%;
+    }
+
+    .div_AI_social, .div_AI_paiements {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .Partenaire_div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 425px) {
+    .container {
+        width: 90%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .header_logo {
+        width: 80%;
+        height: auto;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .Ortho {
+        bottom: 15rem;
+    }
+
+    .schoes_text {
+        bottom: 18rem;
+    }
+
+    .image_place2 {
+        width: 90%;
+        left: 5%;
+        bottom: 0.5rem;
+    }
+
+    .simple_one, .simple_two, .simple_three, .simple_four, .simple_five, .simple_six, .simple_seven, .simple_eight {
+        width: 98%;
+        height: auto;
+    }
+
+    .major_simple {
+        height: auto;
+    }
+
+    .strong, .strong_two {
+        width: 98%;
+        height: auto;
+    }
+
+    .div_isolated {
+        width: 98%;
+    }
+
+    .other_veja, .other_gola, .other_puma, .other_nk {
+        width: 98%;
+        height: auto;
+    }
+
+    .div_produit {
+        width: 98%;
+    }
+
+    .Myblock, .Myblock_un {
+        width: 98%;
+    }
+
+    h2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text_desbloc {
+        width: 98%;
+    }
+
+    .div_AI_social, .div_AI_paiements {
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .Partenaire_div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
